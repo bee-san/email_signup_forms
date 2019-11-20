@@ -1,0 +1,47 @@
+<style>
+    #myemail {
+    background-color: #f0f0f0;
+    color: black;
+    padding: 15px;
+    border-radius: 25px;
+            width: 80%;
+        margin: 0 auto;
+    }
+    #little {
+    color: grey;
+        font-size: 10px;
+        }
+    #email {
+        width: 100%;
+        padding: 10px;
+        
+        }
+    #submit {
+        width: 100%;
+        background: rgb(36,255,204);
+        }
+        #gdpr { width: 15px; height: 15px; }
+    </style>
+    <div id="myemail">
+        <h2 id='myemail'>At least this isn't a full screen pop up! 😅</h2>
+        Sign up now and get:
+       <ul>
+      <li>A free 202 page book on algorithmic design paradigms</li>
+      <li>A free 107 page book on employability skills</li>
+      <li>And much more to help you become an awesome developer!</li>
+    </ul>
+<form action="https://sendy.skerritt.blog/subscribe" method="POST" accept-charset="utf-8">
+	<label for="email">Email</label><br/>
+	<input type="email" name="email" id="email" placeholder="example@example.com" autocomplete="email" required/><br/><br/>
+<input type="checkbox" name="gdpr" id="gdpr" required/>
+<span>GDPR: I consent to receive promotional emails about your products and services.</span>
+<div style="display:none;">
+	<label for="hp">HP</label><br/>
+	<input type="text" name="hp" id="hp"/>
+	</div>
+	<input type="hidden" name="list" value="vy4Vd8gITLrJVG8tYMrvVA"/>
+	<input type="hidden" name="subform" value="yes"/>
+    <input type="submit" name="submit" id="submit"/>
+    <center><span id="little">One click unsubscribe anytime.</span></center>
+</form>
+</div>
